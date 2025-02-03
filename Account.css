@@ -1,0 +1,238 @@
+@media screen and (max-width:450px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        height: 87vh;
+        width: 100%;
+        border: none;
+        display: grid;
+        place-content: center;
+        background-color: #dcdcdc54;
+    }
+    form{
+        height: 56vh;
+        width: 68vw;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: white;
+    }
+    header{
+        height: 16vh;
+        width: 100%;
+        border: none;
+        display: grid;
+        place-content: center;
+    }
+    .img1{
+        height: 3vh;
+    }
+    section{
+        height: 24vh;
+        width: 100%;
+        border: none;
+        display: grid;
+        place-content: center;
+        gap: 10px;
+    }
+    .subtitle_1{
+        font-family: sans-serif;
+    }
+    label{
+        font-family: sans-serif;
+        font-size: small;
+        color: grey;
+    }
+    .email_input{
+        height: 3.5vh;
+        width: 44vw;
+        border-radius: 4px;
+        border: 1px solid;
+    }
+    .submit{
+        height: 4vh;
+        width: 44vw; 
+        background-color: black;
+        border: black;
+        color: white;
+        border-radius: 5px;
+    }
+    footer{
+        height: 7vh;
+        width: 100%;
+        border: none;
+        display: flex;
+        align-items: center;
+    }
+    .Privacy{
+        margin-left: 34px;
+        text-decoration: none;
+        color: black;
+        font-family: sans-serif;
+        font-size: small;
+    }
+    .Privacy:hover{
+        text-decoration: underline 3px;
+    }
+}
+@media screen and (min-width:451px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        height: 95vh;
+        width: 100%;
+        border: none;
+        display: grid;
+        place-content: center;
+        background-color: #dcdcdc54;
+    }
+    form{
+        height: 60vh;
+        width: 65vw;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: white;
+    }
+    header{
+        height: 18vh;
+        width: 100%;
+        border: none;
+        display: grid;
+        place-content: center;
+    }
+    .img1{
+        height: 3.7vh;
+    }
+    section{
+        height: 28vh;
+        width: 100%;
+        border: none;
+        display: grid;
+        place-content: center;
+        gap: 10px;
+    }
+    .subtitle_1{
+        font-family: sans-serif;
+    }
+    label{
+        font-family: sans-serif;
+        font-size: 1rem;
+        color: grey;
+    }
+    .email_input{
+        height: 4vh;
+        width: 38vw;
+        border-radius: 4px;
+        border: 1px solid;
+    }
+    .submit{
+        height: 4vh;
+        width: 38vw; 
+        background-color: black;
+        border: black;
+        color: white;
+        border-radius: 5px;
+    }
+    footer{
+        height: 6vh;
+        width: 100%;
+        border: none;
+        display: flex;
+        align-items: center;
+    }
+    .Privacy{
+        margin-left: 34px;
+        text-decoration: none;
+        color: black;
+        font-family: sans-serif;
+        font-size: small;
+    }
+    .Privacy:hover{
+        text-decoration: underline 1px;
+    }
+}
+@media screen and (min-width:900px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        height: 95vh;
+        width: 100%;
+        border: none;
+        display: grid;
+        place-content: center;
+        background-color: #dcdcdc54;
+    }
+    form{
+        height: 66vh;
+        width: 40vw;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: white;
+    }
+    header{
+        height: 23vh;
+        width: 100%;
+        border: none;
+        display: grid;
+        place-content: center;
+    }
+    .img1{
+        height: 5vh;
+    }
+    section{
+        height: 30vh;
+        width: 100%;
+        border: none;
+        display: grid;
+        place-content: center;
+        gap: 10px;
+    }
+    .subtitle_1{
+        margin-left: 20px;
+        font-family: sans-serif;
+    }
+    label{
+        margin-left: 20px;
+        font-family: sans-serif;
+        font-size: small;
+        color: grey;
+    }
+    .email_input{
+        height: 5vh;
+        width: 36vw;
+        margin-left: 20px;
+        border-radius: 4px;
+        border: 1px solid;
+    }
+    .submit{
+        height: 7vh;
+        width: 36vw;
+        margin-left: 20px; 
+        background-color: black;
+        border: black;
+        color: white;
+        border-radius: 5px;
+    }
+    footer{
+        height: 10vh;
+        width: 100%;
+        border: none;
+        display: flex;
+        align-items: center;
+    }
+    .Privacy{
+        margin-left: 34px;
+        text-decoration: none;
+        color: black;
+        font-family: sans-serif;
+        font-size: small;
+    }
+    .Privacy:hover{
+        text-decoration: underline 1px;
+    }
+}

@@ -1,0 +1,566 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Header */
+header{
+    height: 15vh;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    @media screen and (max-width:600px) {
+        height: 9vh;
+        width: 100%;
+        border: 1px solid;
+    }
+}
+
+nav{
+    height: 10vh;
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 6vh;
+    width: 17vw;
+}
+.nav_1{
+    height: 10vh;
+    width: 60vw;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_2{
+    height: 10vh;
+    width: 25vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav_link{
+    text-decoration: none;
+    color: black;
+    
+}
+.nav_link:hover{
+    text-decoration: underline 1px solid;
+}
+/* Dropdown Button */
+.dropbtn {
+    text-decoration: none;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: grid;place-content: center;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {text-decoration: underline 1px solid;}
+/* Section */
+section{
+    height: 800vh;
+    width: 100%;
+    border: none;
+   
+}
+.bg_img{
+    height: 100vh;
+    width: inherit;
+    border: none;
+    background-image: url("Desktop_view_86.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.wrap_1{
+    height: 30vh;
+    width: 40vw;
+    border: none;
+    margin-left: 30px;
+}
+.bg_text{
+    color: white;
+}
+.shop_btn{
+    width: 10vw;
+    height: 7vh;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.wrap{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+.gallery_1{
+    height: 80vh;
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product_page_1{
+    height: 72vh;
+    width: 20vw;
+    border: none;
+}
+.img1{
+    width: 100%;
+}
+.select_wrap{
+    text-align: center;
+    color: grey;
+}
+.price_tag1{
+    text-align: center;
+    font-weight: 300;
+    font-family: monospace;
+    font-size: 0.83rem;
+}
+.btn_wrap{
+    text-align: center;
+}
+.subtitle{
+    text-align: center;
+    padding-top: 40px;
+    font-family: sans-serif;
+}
+.gallery_2{
+    height: 85vh;
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product_page_2{
+    height: 80vh;
+    width: 20vw;
+    border: none;
+}
+.img2{
+    width: 100%;
+    height: 60vh;
+}
+.gallery_3{
+    height: 85vh;
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product_page_3{
+    height: 80vh;
+    width: 20vw;
+    border: none;
+}
+.gallery_4{
+    height: 140vh;
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product_page_4{
+    height: 130vh;
+    width: 40vw;
+    border: none;
+}
+.product_page_5{
+    height: 130vh;
+    width: 65vw;
+    border: 1px solid;
+    
+}
+.product{
+    height: 31vh;
+    width: 100%;
+    border: 1px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display: flex;
+}
+.img3{
+    height:100%;
+    width: 13vw;
+}
+.img4{
+    height: 100%;
+    width: 100%;
+}
+.price_tag2{
+    height: 30vh;
+    width: 30vw;
+    border: none;
+}
+.btn_wrap1{
+    width: 100%;
+}
+.btn_wrap2{
+    width: 100%;
+    
+    margin-top: 10px;
+}
+.gallery_5{
+    height: 92vh;
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product_page_5{
+    height: 80vh;
+    width: 23vw;
+    border: none;
+}
+.gallery_6{
+    height: 92vh;
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product_page_6{
+    height: 80vh;
+    width: 23vw;
+    border: none;
+}
+.gallery_7{
+    height: 92vh;
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product_page_7{
+    height: 80vh;
+    width: 23vw;
+    border: none;
+}
+.gallery_8{
+    height: 92vh;
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product_page_8{
+    height: 80vh;
+    width: 23vw;
+    border: none;
+}
+.gallery_9{
+    height: 120vh;
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product_page_9{
+    height: 80vh;
+    width: 30vw;
+    border: none;
+    background-image: url(https___prod-bof-media.s3.eu-west-1.amazonaws.com_60_767e40a0234e46bf44bb7608d882ba_TAC-che_0219.avif);
+    background-repeat: no-repeat;
+    background-size: 80vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.product_page_10{
+    height: 80vh;
+    width: 30vw;
+    border: none;
+    background-image: url(images\ \(8\).jfif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.product_page_11{
+    height: 80vh;
+    width: 30vw;
+    border: none;
+    background-image: url(ASHLUXEZigZagLeatherMaxiBag-Black_Grey.avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .logo{
+        height: 4vh;
+        width: 24vw;
+    }
+    .nav_link{
+        display: none;
+    }
+    .nav_2{
+        display: none;
+    }
+   
+    /* Section */
+    .bg_img{
+        height: 50vh;
+        width: inherit;
+        border: none;
+        background-image: url("Desktop_view_86.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+    }
+    .shop_btn{
+        height: 5vh;
+        width: 20vw;
+
+    }
+    .gallery_1{
+        height: 100vh;
+        width: 100%;
+        border: none;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .product_page_1{
+        height: 47vh;
+        width: 35vw;
+        border: none;
+    }
+    .img1{
+        width: 100%;
+    }
+    .gallery_2{
+        height: 90vh;
+        width: 100%;
+        border: none;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .product_page_2{
+        height: 40vh;
+        width: 34vw;
+        border: none;
+    }
+    .img2{
+        width: 100%;
+        height: 25vh;
+    }
+    .gallery_3{
+        height: 105vh;
+        width: 100%;
+        border: none;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .product_page_3{
+        height: 40vh;
+        width: 37vw;
+        border: none;
+    }
+    .gallery_4{
+        height: 200vh;
+        width: 100%;
+        border: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product_page_4{
+        height: 54vh;
+        width: 65vw;
+        border: none;
+        
+    }
+    .product_page_45{
+        height: 130vh;
+        width: 65vw;
+        border: none;
+        
+    }
+    .product{
+        height: 31vh;
+        width: 100%;
+        border: 1px solid grey;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .img3{
+        height:20vh;
+        width: 13vw;
+    }
+    .img4{
+        height: 100%;
+        width: 100%;
+    }
+    .price_tag2{
+        height: 30vh;
+        width: 30vw;
+        border: none;
+    }
+    .btn_wrap1{
+        width: 100%;
+    }
+    .btn_wrap2{
+        width: 100%;
+        
+        margin-top: 10px;
+    }
+    .gallery_5{
+        height: 92vh;
+        width: 100%;
+        border: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .product_page_5{
+        height: 45vh;
+        width: 37vw;
+        border: none;
+    }
+    .gallery_6{
+        height: 92vh;
+        width: 100%;
+        border: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .product_page_6{
+        height: 45vh;
+        width: 35vw;
+        border: none;
+    }
+    .gallery_7{
+        height: 92vh;
+        width: 100%;
+        border: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .product_page_7{
+        height: 45vh;
+        width: 35vw;
+        border: none;
+    }
+    .gallery_8{
+        height: 92vh;
+        width: 100%;
+        border: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .product_page_8{
+        height: 45vh;
+        width: 35vw;
+        border: none;
+    }
+    .gallery_9{
+        height: 120vh;
+        width: 100%;
+        border: none;
+        display: grid;
+    }
+    .product_page_9{
+        height: 30vh;
+        width: 54vw;
+        border: none;
+        background-image: url(https___prod-bof-media.s3.eu-west-1.amazonaws.com_60_767e40a0234e46bf44bb7608d882ba_TAC-che_0219.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        place-items: center;
+        text-align: center;
+    }
+    .product_page_10{
+        height: 30vh;
+        width: 54vw;
+        border: none;
+        background-image: url(images\ \(8\).jfif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: grid;
+        place-items: center;
+        text-align: center;
+    }
+    .product_page_11{
+        height: 30vh;
+        width: 54vw;
+        border: none;
+        background-image: url(ASHLUXEZigZagLeatherMaxiBag-Black_Grey.avif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        display: grid;
+        place-items: center;
+        text-align: center;
+    }
+}
+
+
