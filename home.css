@@ -74,6 +74,7 @@ nav{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    font-size: small;
   }
   
   /* Links inside the dropdown */
@@ -92,6 +93,40 @@ nav{
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {text-decoration: underline 1px solid;}
+  .dropdown-1 {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content-1{
+    height: 60vh;
+    width: 20vw;
+    display: none;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: small;
+}
+.dropdown-content-1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.search{
+    height: 6vh;
+    width: 17vw;
+}
+.dropdown-content-1 a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown-1:hover .dropdown-content-1 {display: grid;place-content: center;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown-1:hover .dropbtn {text-decoration: underline 1px solid;}
 /* Section */
 section{
     height: 800vh;
